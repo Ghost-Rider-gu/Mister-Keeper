@@ -1,0 +1,14 @@
+server:
+  port: 9099
+
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/services
+  profiles:
+    active: native
+  security:
+    user:
+      password: ${CONFIGURATION_SERVER_PASSWORD}
