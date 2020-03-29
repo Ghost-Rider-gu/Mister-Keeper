@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: auth-service
+  cloud:
+    config:
+      uri: http://config:9099
+      fail-fast: true
+      password: ${CONFIGURATION_SERVER_PASSWORD}
+      username: user
