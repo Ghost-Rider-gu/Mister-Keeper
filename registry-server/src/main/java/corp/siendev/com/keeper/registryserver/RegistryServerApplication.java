@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020
+ * Ghost Rider aka Golubnichenko Yuriy
+ */
+
 package corp.siendev.com.keeper.registryserver;
 
 import org.springframework.boot.SpringApplication;
@@ -11,5 +16,4 @@ public class RegistryServerApplication {
     public static void main(String[] args) {
         SpringApplication.run(RegistryServerApplication.class, args);
     }
-
 }
