@@ -1,0 +1,20 @@
+# Data Source setting
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mister_keeper
+    username: postgres
+    password: 171988Ghost
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        naming:
+          physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+          implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+        ddl-auto: update
+    show-sql: true
+
+server:
+  servlet:
+    context-path: /uaa
+  port: 5000

@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020
+ * Ghost Rider aka Golubnichenko Yuriy
+ */
+
 package corp.siendev.com.keeper.configserver.config;
 
 import org.springframework.context.annotation.Configuration;
@@ -9,10 +14,13 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.csrf().disable();
         http.authorizeRequests()
+                .antMatchers("/actuator/**").permitAll()
                 .anyRequest().authenticated()
                 .and()
-                .httpBasic();
+                .httpBasic()
+                .and()
+                .csrf()
+                .disable();
     }
 }
