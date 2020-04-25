@@ -40,5 +40,6 @@
 		<module>book-service</module>
 		<module>auth-service</module>
 		<module>music-service</module>
-	</modules>
+        <module>statistic-service</module>
+    </modules>
 </project>
