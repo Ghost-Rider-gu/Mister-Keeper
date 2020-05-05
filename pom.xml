@@ -41,5 +41,6 @@
 		<module>auth-service</module>
 		<module>music-service</module>
         <module>statistic-service</module>
+        <module>monitoring-service</module>
     </modules>
 </project>
