@@ -2,8 +2,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/mister_keeper_book
-    username: postgres
-    password: 171988Ghost
+    username:
+    password:
   jpa:
     properties:
       hibernate:
