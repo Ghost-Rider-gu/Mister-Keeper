@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2020
- * Ghost Rider aka Golubnichenko Yuriy
+ * Copyright (c) 2021
+ * Ghost Rider aka Golubnichenko Iurii
  */
 
 package corp.siendev.com.keeper.registryserver;

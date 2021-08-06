@@ -11,4 +11,5 @@ spring:
     active: native
   security:
     user:
-      password: ${CONFIGURATION_SERVER_PASSWORD}
+      password: 12345
+      name: user

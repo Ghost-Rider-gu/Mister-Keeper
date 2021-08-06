@@ -1,9 +1,4 @@
-/*
- * Copyright (c) 2020
- * Ghost Rider aka Golubnichenko Yuriy
- */
-
-package corp.siendev.com.keeper.bookservice;
+package corp.siendev.com.keeper.musicservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class BookServiceApplicationTests {
+public class MusicServiceApplicationTests {
 
     @Test
     public void contextLoads() {
