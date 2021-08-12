@@ -5,14 +5,23 @@
 
     <artifactId>keeper-config-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
     <name>config-server</name>
-    <description>Configuration server for microservices</description>
+    <description>Configuration server for Mister Keeper application platform</description>
 
     <parent>
         <groupId>corp.siendev.com</groupId>
         <artifactId>app-mister-keeper</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+
+    <properties>
+        <start-class>com.thoughtmechanix.confsvr.ConfigServerApplication </start-class>
+        <java.version>1.8</java.version>
+        <docker.image.name>johncarnell/tmx-confsvr</doc
+        <docker.image.tag>chapter3</docker.image.tag>
+    </properties>
 
     <dependencies>
         <dependency>

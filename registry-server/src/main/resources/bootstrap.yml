@@ -12,7 +12,7 @@ spring:
     name: registry-server
   cloud:
     config:
-      uri: http://config:9099
+      uri: http://localhost:9099
       fail-fast: true
-      password: ${CONFIGURATION_SERVER_PASSWORD}
+      password: 12345
       username: user

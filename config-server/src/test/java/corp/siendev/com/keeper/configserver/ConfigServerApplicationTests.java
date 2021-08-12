@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020
+ * Ghost Rider aka Golubnichenko Iurii
+ */
+
 package corp.siendev.com.keeper.configserver;
 
 import org.junit.Test;

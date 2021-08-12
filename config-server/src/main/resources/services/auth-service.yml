@@ -1,9 +1,9 @@
 # Data Source setting
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/mister_keeper
-    username: postgres
-    password: 171988Ghost
+    url: jdbc:postgresql://localhost:5432/mister_keeper_auth
+    username:
+    password:
   jpa:
     properties:
       hibernate:
@@ -17,4 +17,4 @@ spring:
 server:
   servlet:
     context-path: /uaa
-  port: 5000
+  port: 6000
