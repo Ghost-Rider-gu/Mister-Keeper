@@ -3,7 +3,7 @@ spring:
     name: auth-service
   cloud:
     config:
-      uri: http://config:9099
+      uri: http://localhost:9099
       fail-fast: true
       password: ${CONFIGURATION_SERVER_PASSWORD}
-      username: user
+      username: ${CONFIGURATION_SERVER_USER}
