@@ -1,4 +1,6 @@
 # Mister-Keeper
 --
-Travis CI  
-[![Build Status](https://travis-ci.com/Ghost-Rider-gu/Mister-Keeper.svg?branch=master)](https://travis-ci.com/Ghost-Rider-gu/Mister-Keeper)
+This is a backend part of a MisterKeeper project. 
+The whole process of creating this project will be describing in T-Shape series of articles. 
+
+In progress ...
