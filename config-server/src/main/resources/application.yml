@@ -2,6 +2,8 @@ server:
   port: 9099
 
 spring:
+  application:
+    name: config-server
   cloud:
     config:
       server:
@@ -9,7 +11,3 @@ spring:
           search-locations: classpath:/services
   profiles:
     active: native
-  security:
-    user:
-      password: 12345
-      name: user

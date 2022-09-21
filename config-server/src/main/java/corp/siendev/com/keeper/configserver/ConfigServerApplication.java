@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2020
- * Ghost Rider aka Golubnichenko Yuriy
+ * Copyright (c) 2022
+ * Ghost Rider aka Iurii Golubnichenko
  */
 
 package corp.siendev.com.keeper.configserver;
@@ -12,7 +12,6 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @SpringBootApplication
 @EnableConfigServer
 public class ConfigServerApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(ConfigServerApplication.class, args);
     }
