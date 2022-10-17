@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: registry-server
+  cloud:
+    config:
+      fail-fast: true
+      password: ${PASSWORD}
+      username: ${USERNAME}
+  config:
+    import: optional:configserver:http://localhost:9099

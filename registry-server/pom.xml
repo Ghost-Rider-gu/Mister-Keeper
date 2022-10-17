@@ -5,8 +5,10 @@
 
     <artifactId>keeper-registry-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
     <name>registry-server</name>
-    <description>Registration server for microservices with Eureka</description>
+    <description>Service Discovery for Mister Keeper application platform</description>
 
     <parent>
         <groupId>corp.siendev.com</groupId>
@@ -14,7 +16,16 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
+    <properties>
+        <java.version>18</java.version>
+        <docker.image.name>${project.name}</docker.image.name>
+    </properties>
+
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
