@@ -4,7 +4,7 @@ spring:
   cloud:
     config:
       fail-fast: true
-      password: ${PASSWORD}
-      username: ${USERNAME}
+      password: password
+      username: user
   config:
     import: optional:configserver:http://localhost:9099
