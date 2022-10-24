@@ -43,5 +43,6 @@
         <module>statistic-service</module>
         <module>monitoring-service</module>
         <module>movie-service</module>
+        <module>gateway-service</module>
     </modules>
 </project>
